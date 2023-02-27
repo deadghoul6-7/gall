@@ -1,0 +1,255 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+:root {
+	--gap: .5em;
+	--index: calc(1vw + 1vh);
+	--color-dark: #000;
+}
+body {
+	overflow: hidden;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #101922;
+}
+.ssss {
+	color: white
+}
+.header {
+	font-family: 'Playfair Display';
+	font-style: italic;
+	color: #FF4612;
+	letter-spacing: .1em;
+	font-size: calc(var(--index) * 2.8);
+	position: absolute;
+	font-weight: 400;
+	line-height: 100%;
+	text-transform: uppercase;
+	text-align: center;
+	opacity: .9;
+	margin-top: .2em;
+}
+.header .Hspan{
+	font-family: 'Playfair Display';
+	font-style: italic;
+
+}
+/* .header span {
+	display: block;
+	font-family: Helvetica, sans-serif;
+	font-size: calc(var(--index) * .75);
+	margin-top: 5px;
+} */
+.gallery {
+	width: 30vw;
+	column-width: 2em;
+	gap: var(--gap);
+	transform: scale(8.2);
+	will-change: transform;
+	transition: transform 1s cubic-bezier(.075, 1, .25, 1), opacity 1s;
+}
+.gallery__item {
+	margin-bottom: var(--gap);
+	transform: scale(1.001);
+	will-change: transform;
+	transition: .3s;
+}
+.gallery__item:hover {
+	transform: scale(1.03);
+}
+.gallery__item img {
+	width: 100%;
+	display: block;
+}
+.loaded .gallery {
+	opacity: 1;
+}
+.text-cartin{
+	font-family: 'Playfair Display';
+font-style: normal;
+white-space: nowrap;
+font-size: 4px;
+text-align: center;
+color: #FFFFFF;
+}
+.text-cartin1{
+	font-family: 'Playfair Display';
+font-style: normal;
+white-space: nowrap;
+font-size: 3.7px;
+text-align: center;
+color: #FFFFFF;
+}
+.text-cartin2{
+	font-family: 'Playfair Display';
+font-style: normal;
+white-space: nowrap;
+font-size: 3.7px;
+text-align: center;
+color: #FFFFFF;
+}
+.text-cartin3{
+	font-family: 'Playfair Display';
+font-style: normal;
+white-space: nowrap;
+font-size: 3.7px;
+text-align: center;
+color: #FFFFFF;
+}
+.text-cartin4{
+	font-family: 'Playfair Display';
+font-style: normal;
+white-space: nowrap;
+font-size: 3.7px;
+text-align: center;
+color: #FFFFFF;
+}
+.text-cartin5{
+	font-family: 'Playfair Display';
+font-style: normal;
+white-space: nowrap;
+font-size: 3.7px;
+text-align: center;
+color: #FFFFFF;
+}
+.text-cartin6{
+	font-family: 'Playfair Display';
+font-style: normal;
+white-space: nowrap;
+font-size: 3.7px;
+text-align: center;
+color: #FFFFFF;
+}
+.text-cartin7{
+	font-family: 'Playfair Display';
+font-style: normal;
+white-space: nowrap;
+font-size: 3.7px;
+text-align: center;
+color: #FFFFFF;
+}
+.text-cartin8{
+	font-family: 'Playfair Display';
+font-style: normal;
+white-space: nowrap;
+font-size: 3.7px;
+text-align: center;
+color: #FFFFFF;
+}
+.text-cartin9{
+	font-family: 'Playfair Display';
+font-style: normal;
+white-space: nowrap;
+font-size: 3.7px;
+text-align: center;
+color: #FFFFFF;
+}
+.text-cartin10{
+	font-family: 'Playfair Display';
+font-style: normal;
+white-space: nowrap;
+font-size: 3.7px;
+text-align: center;
+color: #FFFFFF;
+}
+.text-cartin11{
+	font-family: 'Playfair Display';
+font-style: normal;
+white-space: nowrap;
+font-size: 3.7px;
+text-align: center;
+color: #FFFFFF;
+}
+.text-cartin12{
+	font-family: 'Playfair Display';
+font-style: normal;
+white-space: nowrap;
+font-size: 3.7px;
+text-align: center;
+color: #FFFFFF;
+}
+.text-cartin13{
+	font-family: 'Playfair Display';
+font-style: normal;
+white-space: nowrap;
+font-size: 3.7px;
+text-align: center;
+color: #FFFFFF;
+}
+.text-cartin14{
+	font-family: 'Playfair Display';
+font-style: normal;
+white-space: nowrap;
+font-size: 3.7px;
+text-align: center;
+color: #FFFFFF;
+}
+.text-cartin15{
+	font-family: 'Playfair Display';
+font-style: normal;
+white-space: nowrap;
+font-size: 3.7px;
+text-align: center;
+color: #FFFFFF;
+}
+.text-cartin16{
+	font-family: 'Playfair Display';
+font-style: normal;
+white-space: nowrap;
+font-size: 3.7px;
+text-align: center;
+color: #FFFFFF;
+}
+.text-cartin17{
+	font-family: 'Playfair Display';
+font-style: normal;
+white-space: nowrap;
+font-size: 3.7px;
+text-align: center;
+color: #FFFFFF;
+}
+/* .loaded .header span {
+	opacity: 0;
+} */
+
+/* DARK MODE OS */
+
+/* @media (prefers-color-scheme: dark) {
+	body {
+		background-color: var(--color-dark);
+	}
+	.header {
+		filter: invert(100%);
+	}
+} */
+
+/* MOBILE */
+
+@media (max-width : 992px) {
+
+	.header {
+		position: relative;
+	}
+
+	body {
+		overflow: scroll;
+		display: block;
+		padding: var(--gap);
+	}
+
+	.gallery {
+		width: 100%;
+		column-width: 10em;
+		transform: scale(1);
+	}
+	.gallery__item:hover {
+		transform: scale(1);
+	}
+
+}

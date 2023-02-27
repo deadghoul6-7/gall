@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="css/main.css">
+
+	<script src="libs/gsap.min.js" defer></script>
+	<script src="libs/Draggable.min.js" defer></script>
+	<script src="libs/InertiaPlugin.min.js" defer></script>
+	<script src="js/app.js" defer></script>
+
+	<style>
+		.gallery { opacity: 0; }
+	</style>
+
+</head>
+<body>
+
+	<h1 class="header"><p>ЗАПАДНАЯ <span class="ssss"> ЕВРОПА</span> </h1>
+
+	<!-- .gallery>(.gallery__item*20>img[src="img/$.jpg" alt="Alt"])*4 -->
+
+	<div class="gallery">
+		<div class="gallery__item"><img src="img2/1.png" alt="Alt"><p class="text-cartin">Исскуство СССР</p></div>
+		<div class="gallery__item"><img src="img2/2.png" alt="Alt"><p class="text-cartin1">Исскуство Франции</p></div>
+		<div class="gallery__item"><img src="img2/3.png" alt="Alt"><p class="text-cartin2">Исскуство Германии</p></div>
+		<div class="gallery__item"><img src="img2/4.png" alt="Alt"><p class="text-cartin3">Исскуство Франции</p></div>
+		<div class="gallery__item"><img src="img2/5.png" alt="Alt"><p class="text-cartin4">Исскуство Англии</p></div>
+		<div class="gallery__item"><img src="img2/6.png" alt="Alt"><p class="text-cartin5">Исскуство России</p></div>
+		<div class="gallery__item"><img src="img2/7.png" alt="Alt"><p class="text-cartin6">Исскуство Франции</p></div>
+		<div class="gallery__item"><img src="img2/8.png" alt="Alt"><p class="text-cartin7"></p></div>
+		<div class="gallery__item"><img src="img2/9.png" alt="Alt"><p class="text-cartin8">Исскуство Франции</p></div>
+		<div class="gallery__item"><img src="img2/10.png" alt="Alt"><p class="text-cartin9"></p></div>
+		<div class="gallery__item"><img src="img2/11.png" alt="Alt"><p class="text-cartin10"></p></div>
+		<div class="gallery__item"><img src="img2/12.png" alt="Alt"><p class="text-cartin11"></p></div>
+		<div class="gallery__item"><img src="img2/13.png" alt="Alt"><p class="text-cartin12"></p></div>
+		<div class="gallery__item"><img src="img2/14.png" alt="Alt"><p class="text-cartin13"></p></div>
+		<div class="gallery__item"><img src="img2/15.png" alt="Alt"><p class="text-cartin14"></p></div>
+		<div class="gallery__item"><img src="img2/16.png" alt="Alt"><p class="text-cartin15"></p></div>
+		<div class="gallery__item"><img src="img2/17.png" alt="Alt"><p class="text-cartin16"></p></div>
+		<div class="gallery__item"><img src="img2/18.png" alt="Alt"><p class="text-cartin17"></p></div>
+		
+
+		<div class="gallery__item"><img src="img2/1.png" alt="Alt"><p class="text-cartin">Исскуство СССР</p></div>
+		<div class="gallery__item"><img src="img2/2.png" alt="Alt"><p class="text-cartin1">Исскуство Франции</p></div>
+		<div class="gallery__item"><img src="img2/3.png" alt="Alt"><p class="text-cartin2">Исскуство Германии</p></div>
+		<div class="gallery__item"><img src="img2/4.png" alt="Alt"><p class="text-cartin3">Исскуство Франции</p></div>
+		<div class="gallery__item"><img src="img2/5.png" alt="Alt"><p class="text-cartin4">Исскуство Англии</p></div>
+		<div class="gallery__item"><img src="img2/6.png" alt="Alt"><p class="text-cartin5">Исскуство России</p></div>
+		<div class="gallery__item"><img src="img2/7.png" alt="Alt"><p class="text-cartin6">Исскуство Франции</p></div>
+		<div class="gallery__item"><img src="img2/8.png" alt="Alt"><p class="text-cartin7"></p></div>
+		<div class="gallery__item"><img src="img2/9.png" alt="Alt"><p class="text-cartin8">Исскуство Франции</p></div>
+		<div class="gallery__item"><img src="img2/10.png" alt="Alt"><p class="text-cartin9"></p></div>
+		<div class="gallery__item"><img src="img2/11.png" alt="Alt"><p class="text-cartin10"></p></div>
+		<div class="gallery__item"><img src="img2/12.png" alt="Alt"><p class="text-cartin11"></p></div>
+		<div class="gallery__item"><img src="img2/13.png" alt="Alt"><p class="text-cartin12"></p></div>
+		<div class="gallery__item"><img src="img2/14.png" alt="Alt"><p class="text-cartin13"></p></div>
+		<div class="gallery__item"><img src="img2/15.png" alt="Alt"><p class="text-cartin14"></p></div>
+		<div class="gallery__item"><img src="img2/16.png" alt="Alt"><p class="text-cartin15"></p></div>
+		<div class="gallery__item"><img src="img2/17.png" alt="Alt"><p class="text-cartin16"></p></div>
+		<div class="gallery__item"><img src="img2/18.png" alt="Alt"><p class="text-cartin17"></p></div>
+		
+
+		<div class="gallery__item"><img src="img2/1.png" alt="Alt"><p class="text-cartin">Исскуство СССР</p></div>
+		<div class="gallery__item"><img src="img2/2.png" alt="Alt"><p class="text-cartin1">Исскуство Франции</p></div>
+		<div class="gallery__item"><img src="img2/3.png" alt="Alt"><p class="text-cartin2">Исскуство Германии</p></div>
+		<div class="gallery__item"><img src="img2/4.png" alt="Alt"><p class="text-cartin3">Исскуство Франции</p></div>
+		<div class="gallery__item"><img src="img2/5.png" alt="Alt"><p class="text-cartin4">Исскуство Англии</p></div>
+		<div class="gallery__item"><img src="img2/6.png" alt="Alt"><p class="text-cartin5">Исскуство России</p></div>
+		<div class="gallery__item"><img src="img2/7.png" alt="Alt"><p class="text-cartin6">Исскуство Франции</p></div>
+		<div class="gallery__item"><img src="img2/8.png" alt="Alt"><p class="text-cartin7"></p></div>
+		<div class="gallery__item"><img src="img2/9.png" alt="Alt"><p class="text-cartin8">Исскуство Франции</p></div>
+		<div class="gallery__item"><img src="img2/10.png" alt="Alt"><p class="text-cartin9"></p></div>
+		<div class="gallery__item"><img src="img2/11.png" alt="Alt"><p class="text-cartin10"></p></div>
+		<div class="gallery__item"><img src="img2/12.png" alt="Alt"><p class="text-cartin11"></p></div>
+		<div class="gallery__item"><img src="img2/13.png" alt="Alt"><p class="text-cartin12"></p></div>
+		<div class="gallery__item"><img src="img2/14.png" alt="Alt"><p class="text-cartin13"></p></div>
+		<div class="gallery__item"><img src="img2/15.png" alt="Alt"><p class="text-cartin14"></p></div>
+		<div class="gallery__item"><img src="img2/16.png" alt="Alt"><p class="text-cartin15"></p></div>
+		<div class="gallery__item"><img src="img2/17.png" alt="Alt"><p class="text-cartin16"></p></div>
+		<div class="gallery__item"><img src="img2/18.png" alt="Alt"><p class="text-cartin17"></p></div>
+		
+
+		<div class="gallery__item"><img src="img2/1.png" alt="Alt"><p class="text-cartin">Исскуство СССР</p></div>
+		<div class="gallery__item"><img src="img2/2.png" alt="Alt"><p class="text-cartin1">Исскуство Франции</p></div>
+		<div class="gallery__item"><img src="img2/3.png" alt="Alt"><p class="text-cartin2">Исскуство Германии</p></div>
+		<div class="gallery__item"><img src="img2/4.png" alt="Alt"><p class="text-cartin3">Исскуство Франции</p></div>
+		<div class="gallery__item"><img src="img2/5.png" alt="Alt"><p class="text-cartin4">Исскуство Англии</p></div>
+		<div class="gallery__item"><img src="img2/6.png" alt="Alt"><p class="text-cartin5">Исскуство России</p></div>
+		<div class="gallery__item"><img src="img2/7.png" alt="Alt"><p class="text-cartin6">Исскуство Франции</p></div>
+		<div class="gallery__item"><img src="img2/8.png" alt="Alt"><p class="text-cartin7"></p></div>
+		<div class="gallery__item"><img src="img2/9.png" alt="Alt"><p class="text-cartin8">Исскуство Франции</p></div>
+		<div class="gallery__item"><img src="img2/10.png" alt="Alt"><p class="text-cartin9"></p></div>
+		<div class="gallery__item"><img src="img2/11.png" alt="Alt"><p class="text-cartin10"></p></div>
+		<div class="gallery__item"><img src="img2/12.png" alt="Alt"><p class="text-cartin11"></p></div>
+		<div class="gallery__item"><img src="img2/13.png" alt="Alt"><p class="text-cartin12"></p></div>
+		<div class="gallery__item"><img src="img2/14.png" alt="Alt"><p class="text-cartin13"></p></div>
+		<div class="gallery__item"><img src="img2/15.png" alt="Alt"><p class="text-cartin14"></p></div>
+		<div class="gallery__item"><img src="img2/16.png" alt="Alt"><p class="text-cartin15"></p></div>
+		<div class="gallery__item"><img src="img2/17.png" alt="Alt"><p class="text-cartin16"></p></div>
+		<div class="gallery__item"><img src="img2/18.png" alt="Alt"><p class="text-cartin17"></p></div>
+		
+
+		<div class="gallery__item"><img src="img2/1.png" alt="Alt"><p class="text-cartin">Исскуство СССР</p></div>
+		<div class="gallery__item"><img src="img2/2.png" alt="Alt"><p class="text-cartin1">Исскуство Франции</p></div>
+		<div class="gallery__item"><img src="img2/3.png" alt="Alt"><p class="text-cartin2">Исскуство Германии</p></div>
+		<div class="gallery__item"><img src="img2/4.png" alt="Alt"><p class="text-cartin3">Исскуство Франции</p></div>
+		<div class="gallery__item"><img src="img2/5.png" alt="Alt"><p class="text-cartin4">Исскуство Англии</p></div>
+		<div class="gallery__item"><img src="img2/6.png" alt="Alt"><p class="text-cartin5">Исскуство России</p></div>
+		<div class="gallery__item"><img src="img2/7.png" alt="Alt"><p class="text-cartin6">Исскуство Франции</p></div>
+		<div class="gallery__item"><img src="img2/8.png" alt="Alt"><p class="text-cartin7"></p></div>
+		<div class="gallery__item"><img src="img2/9.png" alt="Alt"><p class="text-cartin8">Исскуство Франции</p></div>
+		<div class="gallery__item"><img src="img2/10.png" alt="Alt"><p class="text-cartin9"></p></div>
+		<div class="gallery__item"><img src="img2/11.png" alt="Alt"><p class="text-cartin10"></p></div>
+		<div class="gallery__item"><img src="img2/12.png" alt="Alt"><p class="text-cartin11"></p></div>
+		<div class="gallery__item"><img src="img2/13.png" alt="Alt"><p class="text-cartin12"></p></div>
+		<div class="gallery__item"><img src="img2/14.png" alt="Alt"><p class="text-cartin13"></p></div>
+		<div class="gallery__item"><img src="img2/15.png" alt="Alt"><p class="text-cartin14"></p></div>
+		<div class="gallery__item"><img src="img2/16.png" alt="Alt"><p class="text-cartin15"></p></div>
+		<div class="gallery__item"><img src="img2/17.png" alt="Alt"><p class="text-cartin16"></p></div>
+		<div class="gallery__item"><img src="img2/18.png" alt="Alt"><p class="text-cartin17"></p></div>
+		
+	</div>
+
+</body>
+</html>
